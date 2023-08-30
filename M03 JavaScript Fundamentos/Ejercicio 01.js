@@ -5,7 +5,7 @@
 // por el correspondiente.
 
 // Crea una variable de tipo string.
-const nuevoString = "Carlos"; 
+const nuevoString = 'Carlos'; 
 
 // Crea una variable de tipo number.
 const nuevoNumero = 1;
