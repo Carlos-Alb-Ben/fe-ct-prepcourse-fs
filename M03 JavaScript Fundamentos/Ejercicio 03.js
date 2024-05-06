@@ -31,7 +31,7 @@ function menosQueNoventa(num) {
    // De lo contrario, retorna false.
    // Tu código:
    if (num < 90){
-      retur true;
+      return true;
    }
 }
 
@@ -44,16 +44,7 @@ function mayorQueCincuenta(num) {
    }
 }
 
-function esPar(num) {
-   // Retorna true si "num" es par.
-   // De lo contrario, retorna false.
-   // Tu código:
-   if (num%num===0){
-      return true;
-   }else {
-      return false;
-   }
-}
+
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
