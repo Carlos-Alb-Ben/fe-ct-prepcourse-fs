@@ -30,18 +30,29 @@ function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num < 90){
+      retur true;
+   }
 }
 
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num > 50){
+      return 50;
+   }
 }
 
 function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num%num===0){
+      return true;
+   }else {
+      return false;
+   }
 }
 
 function esImpar(num) {
