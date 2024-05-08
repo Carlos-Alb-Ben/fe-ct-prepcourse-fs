@@ -32,6 +32,8 @@ function menosQueNoventa(num) {
    // Tu código:
    if (num < 90){
       return true;
+   } else {
+      return false ;
    }
 }
 
@@ -41,6 +43,8 @@ function mayorQueCincuenta(num) {
    // Tu código:
    if (num > 50){
       return 50;
+   } else {
+      return false
    }
 }
 
@@ -50,6 +54,10 @@ function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num % 2!==0){
+      return true;
+   }else false
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
